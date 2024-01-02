@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ user.name }}</title>
+</head>
+<body>
+    <h1>{{ user.name }}</h1>
+    <p>Height: {{ user.height }}</p>
+    <p>Weight: {{ user.weight }}</p>
+    <p>Dietary Preference: {{ user.dietary_preference }}</p>
+    <br>
+    <a href="{% url 'home' %}">Back</a>
+</body>
+</html>
